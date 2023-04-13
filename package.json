@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc lib/mongo.ts"
+    "build": "node build.js --mode=production"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@citizenfx/server": "^2.0.6385-1",
     "@types/node": "^18.15.11",
+    "esbuild": "^0.17.16",
     "mongodb": "^5.2.0",
     "typescript": "^5.0.4"
   }
