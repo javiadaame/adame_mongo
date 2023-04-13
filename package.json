@@ -1,0 +1,18 @@
+{
+  "name": "adame-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc lib/mongo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@citizenfx/server": "^2.0.6385-1",
+    "@types/node": "^18.15.11",
+    "mongodb": "^5.2.0",
+    "typescript": "^5.0.4"
+  }
+}
