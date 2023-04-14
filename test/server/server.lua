@@ -1,7 +1,7 @@
 RegisterCommand("mongotest", function()
-    MongoDB.findOne({
+    MongoDB.insertOne({
         collection = "users",
-        filter = {
+        document = {
             name = "NickBlade"
         }
     }, function(err, result)
