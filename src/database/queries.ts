@@ -1,5 +1,4 @@
-import { Mongo } from "."
-    ;
+import { Mongo } from ".";
 import { InsertOneResult, InsertManyResult, UpdateResult, Document, DeleteResult } from "mongodb";
 
 import * as utils from "../utils";
